@@ -195,17 +195,17 @@ main start
 
 #feature .container p {}
 
-.form {}
+.divForm {}
 
-.form form {}
+.divForm form {}
 
-.form form label {}
+.divForm form label {}
 
-.form form input {}
+.divForm form input {}
 
-.form form label select {}
+.divForm form select {}
 
-.form form label select option {}
+.divForm form select option {}
 
 /* <!-- ==================================optiohal feature end========================== --> */
 
