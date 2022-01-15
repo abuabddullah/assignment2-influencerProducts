@@ -197,7 +197,7 @@ main start
     margin-bottom: inherit;
 }
 
-#feature .container h6 {
+.container h5 {
     font-weight: normal;
     text-align: center;
 }
@@ -272,6 +272,35 @@ main end
 ====================== --> */
 
 
+/* <!-- ==================================
+footer start
+========================== --> */
+#footer{
+    padding: 50px;
+    background: #000;
+    color: #fff;
+}
+#footer>.container>h2 {
+    margin-bottom: inherit;
+}
+.icons{
+    text-align: center;
+}
+.icons i{
+    margin: 12.5px;
+    transition: .4s;
+}
+
+.icons i:hover{
+    color: #E02C6D;
+}
+
+        
+/* <!-- ==================================
+footer end
+========================== --> */
+
+
 
 /* ==================================================================
 responsive part start
@@ -339,6 +368,7 @@ responsive part start
     .gallery .blog {
         margin-bottom: 25px;
     }
+
     .gallery .blog img {
         width: 100%;
     }
@@ -366,9 +396,6 @@ responsive part start
         width: 15%;
     }
 
-    #feature>.container>h2 {
-        font-size: 22px;
-    }
 }
 
 /* ============================
