@@ -187,25 +187,83 @@ main start
 /* <!-- ==================================gallery section end========================== --> */
 /* <!-- ==================================optiohal feature start========================== --> */
 
-#feature {}
+#feature {
+    padding: 50px;
+}
 
 #feature .container {}
 
-#feature .container h2 {}
+#feature>.container>h2 {
+    margin-bottom: inherit;
+}
 
-#feature .container p {}
+#feature .container h6 {
+    font-weight: normal;
+    text-align: center;
+}
 
-.divForm {}
+#feature .container hr {
+    width: 7%;
+    margin: 5px auto;
+    margin-bottom: 50px;
+    border: 1px solid #E02C6D;
+}
+
+.divForm {
+    width: 50%;
+    margin: auto;
+    padding: 25px;
+    background: #E02C6D;
+}
 
 .divForm form {}
 
-.divForm form label {}
+.divForm form label {
+    color: #fff;
+    display: block;
+}
 
-.divForm form input {}
+.divForm form input,
+select {
+    margin: 8px 0 15px 0;
+    border: 0;
+    outline: 0;
+    display: block;
+    width: 100%;
+    padding: 10px;
+    border-radius: 3px;
+}
 
 .divForm form select {}
 
 .divForm form select option {}
+
+.divForm form button {
+    color: #E02C6D;
+    margin: auto;
+    margin-top: 23px;
+    padding: 10px 25px;
+    font-size: 16px;
+    border-radius: 25px;
+    border: 0;
+    outline: 0;
+    display: block;
+}
+
+.divForm form button>i {
+    margin-left: 25px;
+    transition: .4s;
+    /* background: #E02C6D;
+    color: #fff; */
+    padding: .2em .25em;
+    border-radius: 50%;
+}
+
+.divForm form button:hover i {
+    background: #E02C6D;
+    color: #fff;
+    transform: rotate(360deg);
+}
 
 /* <!-- ==================================optiohal feature end========================== --> */
 
@@ -253,6 +311,10 @@ responsive part start
     .gallery .blog:last-child {
         display: none;
     }
+
+    .divForm {
+        width: 75%;
+    }
 }
 
 /* ==================mobile view =====================*/
@@ -261,11 +323,6 @@ responsive part start
     .logo {
         text-align: center;
     }
-
-    #banner {
-        /* padding: 0px 25px; */
-    }
-
 
     .bannerLeft h1 {
         font-size: 35px;
@@ -277,6 +334,33 @@ responsive part start
 
     .gallery .blog {
         margin-bottom: 25px;
+    }
+
+    .divForm {
+        width: 100%;
+    }
+
+    .divForm form input,
+    select {
+        margin: 0px 0 4px 0;
+        padding: 5px;
+    }
+
+    .divForm form label {
+        font-size: 14px;
+    }
+
+    .divForm form button {
+        padding: 5px 25px;
+        font-size: 14px;
+    }
+
+    #feature .container hr {
+        width: 15%;
+    }
+
+    #feature>.container>h2 {
+        font-size: 22px;
     }
 }
 
