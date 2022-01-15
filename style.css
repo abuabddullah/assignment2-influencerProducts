@@ -167,6 +167,16 @@ main start
     color: orange;
 }
 
+#collection .container>p{
+    text-align: right;
+    margin-top: 50px;
+}
+#collection .container>p a{
+    color: #E02C6D;
+}
+#collection .container>p a i{
+    margin-left: 25px;
+}
 /* <!-- ====================
 main end
 ====================== --> */
