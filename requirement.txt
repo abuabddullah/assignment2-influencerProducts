@@ -1,0 +1,28 @@
+navigaiton bar: (optional: menu items) ||| (optional: menu bar icon and cart icon)
+
+banner: (optional: camera এর পিছনের round background optional) (banned : loremipsum) ||| mobileview: col-12 হতে হবে ||| tabletview: 
+
+MNC logos: ( পুরা part টাই optional) ||| ( পুরা part টাই optional)
+
+gallery: (optional: border radius)(banned : minimum 9 pic, rating star থাকতে হবে, non meanig full writings) ||| mobileview: col-12 হতে হবে ||| tabletview: col-6
+
+see more: (optional: href of link)(banned: must right side) ||| 
+
+featured products: ( পুরা part টাই optional) ||| ( পুরা part টাই optional)
+
+footer: (banned: minmum 3 টা social media links, copyright icon) ||| 
+=======================================================================================================
+
+==========================
+extra 10 marks:
+==========================
+button এ arrow icon ||||||||||||||||    ok
+google font min 1টা ||||||||||||||||     ok
+frame work no use ||||||||||||||||||
+header এ animation থাকতে হবে ||||||
+featured section new ||||||||||||||
+sematic tag use||||||||||||||||||||
+comment apply|||||||||||||||||||||||
+font awesome apply ||||||||||||||||     ok
+
+
