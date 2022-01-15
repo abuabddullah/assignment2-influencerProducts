@@ -128,9 +128,22 @@ main start
     padding: 50px;
 }
 
-#collection .container>h2 {
+.container>h2 {
     margin-bottom: 50px;
     text-align: center;
+}
+
+#collection .container>p {
+    text-align: right;
+    margin-top: 50px;
+}
+
+.container>p a {
+    color: #E02C6D;
+}
+
+.container>p a i {
+    margin-left: 25px;
 }
 
 .gallery {
@@ -170,23 +183,29 @@ main start
     color: orange;
 }
 
-#collection .container>p {
-    text-align: right;
-    margin-top: 50px;
-}
-
-#collection .container>p a {
-    color: #E02C6D;
-}
-
-#collection .container>p a i {
-    margin-left: 25px;
-}
 
 /* <!-- ==================================gallery section end========================== --> */
 /* <!-- ==================================optiohal feature start========================== --> */
 
+#feature {}
 
+#feature .container {}
+
+#feature .container h2 {}
+
+#feature .container p {}
+
+.form {}
+
+.form form {}
+
+.form form label {}
+
+.form form input {}
+
+.form form label select {}
+
+.form form label select option {}
 
 /* <!-- ==================================optiohal feature end========================== --> */
 
